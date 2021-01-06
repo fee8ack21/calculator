@@ -73,6 +73,9 @@ body{
     border: 3px solid black;
     -webkit-box-shadow: 5px 5px black ;
             box-shadow: 5px 5px black ;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 
 .wrap .calc-result{
