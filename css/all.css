@@ -107,6 +107,15 @@ body{
 .wrap .calc-table td{
     width: 25%;
     padding: 5px;
+    -webkit-transition:0.15s;
+    -o-transition:0.15s;
+    transition:0.15s;
+}
+
+.wrap .calc-table td:active{
+   -webkit-transform:scale(0.97);
+       -ms-transform:scale(0.97);
+           transform:scale(0.97)
 }
 
 .wrap .calc-table input{
